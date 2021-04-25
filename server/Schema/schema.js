@@ -1,5 +1,6 @@
 const graphql = require('graphql');
-
+const _Book = require('../Models/Book');
+const _Author = require('../Models/Author');
 const { GraphQLObjectType, GraphQLString, GraphQLID, GraphQLInt, GraphQLSchema, GraphQLList } = graphql;
 
 
