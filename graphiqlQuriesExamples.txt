@@ -1,0 +1,65 @@
+# mutation{
+#   addBook(name:"Bio",genre:"education",authorId:"608568b456c1e64860dc77dd"){
+#     id
+#     name
+#     genre
+#     authorId
+#   }
+# }
+
+
+# mutation{
+#   addAuthor(name:"Haider Sahab",age:15){
+#     name,age,id
+#   }
+# }
+
+
+# {
+#   authors{
+#     name
+#     age
+#     books{
+#       name
+#       genre
+#     }
+#   }
+# }
+
+# {
+#   books{
+#     id
+#     name
+#     genre
+#     author{
+#       name
+#       age
+#     }
+#   }
+# }
+
+# {
+#   # author(id:3){
+#   #   id
+#   #   name
+#   #   age
+#   #   books{
+#   #     name
+#   #     genre
+#   #     id
+#   #     authorId
+#   #   }
+#   }
+
+#   # book(id:2){
+#   #   id
+#   #   name
+#   #   genre
+#   #   authorId
+#   #   author{
+#   #     name
+#   #     age
+#   #     id
+#   #   }
+#   # }
+# }
